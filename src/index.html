@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <title>Cronometro</title>
+</head>
+<body>
+    <div class="w-screen h-screen flex justify-center items-center">
+        <div class="w-2/7 h-4/5 border-2 border-gray-800 rounded drop-shadow-2xl shadow-black">
+            <div class="text-center mt-4">
+                <h1 class="text-5xl font-semibold">CRONOMETRO</h1>
+            </div>
+            <div id="timer" class="border-2 border-gray-800 rounded h-32 mt-4 mx-4 justify-end pr-4 text-6xl font-bold items-center flex">0 0 : 0 0 : 0 0</div>
+            <div class="grid grid-cols-3">
+                <div id="1" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">1</div>
+                <div id="2" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">2</div>
+                <div id="3" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">3</div>
+                <div id="4" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">4</div>
+                <div id="5" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">5</div>
+                <div id="6" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">6</div>
+                <div id="7" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">7</div>
+                <div id="8" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">8</div>
+                <div id="9" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">9</div>
+                <div id="0" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">0</div>
+                <div id="clear" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">C</div>
+                <div id="start" class="border-2 border-gray-800 rounded h-28 w-28 mt-4 mx-4 text-6xl font-bold flex items-center justify-center">GO</div>
+            </div>
+        </div>
+        <div class="hidden w-96 h-3/5 border-2 border-gray-800 rounded"></div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
