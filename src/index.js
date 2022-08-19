@@ -110,13 +110,13 @@ function RodarTimer(tempo) {
       tempo[5] = 9;
 
       if (tempo[4] == 0) {
-        tempo[4] = 9;
+        tempo[4] = 5;
 
         if (tempo[3] == 0) {
           tempo[3] = 9;
 
           if (tempo[2] == 0) {
-            tempo[2] = 9;
+            tempo[2] = 5;
 
             if (tempo[1] == 0) {
               tempo[0]--;
